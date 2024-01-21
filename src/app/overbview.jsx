@@ -1,11 +1,12 @@
 "use client"
+import Image from 'next/image';
 export default function Overview() {
   return (
     <>
       <div className="relative pt-2 max-w-screen-2xl m-auto">
-        <img
+        <Image
           src="https://cdn0-production-images-kly.akamaized.net/tKvxN6uqn5y-f_3PePA_X4jwiyQ=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3153677/original/019791700_1592280960-Astra_1.jpg"
-          className=" rounded-md w-full"
+          className=" rounded-md w-full" alt='astra' width={500} height={500}
         />
 
         <div className=" pt-5 max-w-screen-xl m-auto text-warp">
@@ -61,9 +62,9 @@ export default function Overview() {
             <br />
             <br />
             <div className=" flex justify-center items-center">
-              <img
+              <Image
                 src="https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2022/11/25/2482785424.jpg"
-                className=" items-center justify-center"
+                className=" items-center justify-center" alt='person'  width={500} height={500}
               />
             </div>
             <br />

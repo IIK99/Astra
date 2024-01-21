@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from 'next/image';
 
 export default function Navbar() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -12,9 +13,9 @@ export default function Navbar() {
   return (
     <>
       <nav className="border-b-2 sticky top-0 z-50 bg-white border-sky-200 h-16 w-full flex items-center justify-between font-semibold px-4 lg:px-9">
-        <img
+        <Image
           src="https://www.contactcenterworld.com/images/company/PT.-Astra-International-Tbk.-600px-logo.jpg"
-          className="w-[170px] h-[55px] lg:static lg:block"
+          className="w-[170px] h-[55px] lg:static lg:block" alt="astra" width={500} height={500}
         />
 
         <div className="hidden lg:flex gap-4 text-black no-underline items-center">

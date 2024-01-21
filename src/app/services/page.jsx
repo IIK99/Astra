@@ -3,6 +3,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Image from 'next/image';
 
 export default function Services() {
   const EmptyArrow = () => <></>;
@@ -51,9 +52,9 @@ export default function Services() {
 
               <div className=" grid xl:grid-cols-2 justify-center gap-5">
                 <div className=" w-30 h-30 bg-blue-400 pb-3 rounded-lg shadow-md hover:scale-110 transition-all duration-500">
-                  <img
+                  <Image
                     src="https://source.unsplash.com/1500x1500?bmw"
-                    alt="Otomotif"
+                    alt="Otomotif" width={500} height={500}
                     className=" mb-1 rounded-lg w-full h-[88%]"
                   />
                   <h3 className=" font-semibold text-sm text-center">
@@ -62,9 +63,9 @@ export default function Services() {
                 </div>
 
                 <div className=" w-30 h-30 bg-blue-400 pb-3 rounded-lg shadow-md hover:scale-110 transition-all duration-500">
-                  <img
+                  <Image
                     src="https://source.unsplash.com/1500x1500?financial"
-                    alt="Jasa Keuangan"
+                    alt="Jasa Keuangan" width={500} height={500}
                     className="mb-1 rounded-lg w-full h-[88%]"
                   />
                   <h3 className=" font-semibold text-sm text-center">
@@ -73,18 +74,18 @@ export default function Services() {
                 </div>
 
                 <div className=" w-30 h-30 bg-blue-400 pb-3 rounded-lg shadow-md hover:scale-110 transition-all duration-500">
-                  <img
+                  <Image
                     src="https://source.unsplash.com/1500x1500?energy"
-                    alt="Energy"
+                    alt="Energy"width={500} height={500}
                     className="mb-1 rounded-lg w-full h-[88%]"
                   />
                   <h3 className=" font-semibold text-sm text-center">Energy</h3>
                 </div>
 
                 <div className=" w-30 h-30 bg-blue-400 pb-3 rounded-lg shadow-md hover:scale-110 transition-all duration-500">
-                  <img
+                  <Image
                     src="https://source.unsplash.com/1500x1500?agribusiness"
-                    alt="agribusiness"
+                    alt="agribusiness"width={500} height={500}
                     className="mb-1 rounded-lg w-full h-[88%]"
                   />
                   <h3 className=" font-semibold text-sm text-center">
@@ -93,9 +94,9 @@ export default function Services() {
                 </div>
 
                 <div className=" w-30 h-30 bg-blue-400 pb-3 rounded-lg shadow-md hover:scale-110 transition-all duration-500">
-                  <img
+                  <Image
                     src="https://source.unsplash.com/1500x1500?bridge"
-                    alt="Infrastrukture"
+                    alt="Infrastrukture"width={500} height={500}
                     className="mb-1 rounded-lg w-full h-[88%]"
                   />
                   <h3 className=" font-semibold text-sm text-center">
@@ -104,9 +105,9 @@ export default function Services() {
                 </div>
 
                 <div className=" w-30 h-30 bg-blue-400 pb-3 rounded-lg shadow-md hover:scale-110 transition-all duration-500">
-                  <img
+                  <Image
                     src="https://source.unsplash.com/1500x1500?tecnology"
-                    alt="tecnology"
+                    alt="tecnology"width={500} height={500}
                     className="mb-1 rounded-lg w-full h-[88%]"
                   />
                   <h3 className=" font-semibold text-sm text-center">
@@ -115,9 +116,9 @@ export default function Services() {
                 </div>
 
                 <div className=" w-30 h-30 bg-blue-400 pb-3 rounded-lg shadow-md hover:scale-110 transition-all duration-500">
-                  <img
+                  <Image
                     src="https://source.unsplash.com/1500x1500?properties"
-                    alt="properties"
+                    alt="properties" width={500} height={500}
                     className="mb-1 rounded-lg w-full h-[88%]"
                   />
                   <h3 className=" font-semibold text-sm text-center">
@@ -131,11 +132,11 @@ export default function Services() {
           <div className=" max-w-screen-xl mx-auto mt-10">
             <Slider className="max-w-[1008px] m-auto rounded-lg" {...settings}>
               {slider.map((url, key) => (
-                <img
+                <Image
                   key={key}
-                  src={url}
+                  src={url} width={500} height={500}
                   className=" max-h-[440px] w-full h-full bg-black m-auto rounded-xl"
-                ></img>
+               alt="event" />
               ))}
             </Slider>
             <br />
@@ -146,10 +147,10 @@ export default function Services() {
             <div className="max-w-screen-xl mx-auto py-10">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-7">
                 <div className="relative cursor-pointer bg-white rounded shadow-lg overflow-hidden group">
-                  <img
+                  <Image
                     className="w-full h-[300px] object-cover group-hover:opacity-50"
                     src="https://qmfinancial.com/wp-content/uploads/2022/12/career-cushioning-1170x700.jpg"
-                    alt="ASTRA KARIER"
+                    alt="ASTRA KARIER" width={500} height={500}
                   />
                   <div className="absolute inset-0 px-6 py-4 top-0 flex items-center justify-center opacity-0 group-hover:opacity-100">
                     <div className="text-black text-center">
@@ -170,10 +171,10 @@ export default function Services() {
                 </div>
 
                 <div className="relative cursor-pointer bg-white rounded shadow-lg overflow-hidden group">
-                  <img
+                  <Image
                     className="w-full h-[300px] object-cover group-hover:opacity-50"
                     src="https://yt3.googleusercontent.com/ytc/AIf8zZQ79g2xhIupyIhVy964wrX0OPEyP_VSyO2jRtkFJg=s900-c-k-c0x00ffffff-no-rj"
-                    alt="SATU INDONESIA"
+                    alt="SATU INDONESIA" width={500} height={500}
                   />
                   <div className="absolute inset-0 px-6 py-4 top-0 flex items-center justify-center opacity-0 group-hover:opacity-100">
                     <div className="text-black text-center">
@@ -195,10 +196,10 @@ export default function Services() {
                 </div>
 
                 <div className="relative cursor-pointer bg-white rounded shadow-lg overflow-hidden group">
-                  <img
+                  <Image
                     className="w-full h-[300px] object-cover group-hover:opacity-50"
                     src="https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8a2V5Ym9hcmR8ZW58MHx8MHx8fDA%3D"
-                    alt="BLOG DAN ARTIKEL"
+                    alt="BLOG DAN ARTIKEL" width={500} height={500}
                   />
                   <div className="absolute inset-0 px-6 py-4 top-0 flex items-center justify-center opacity-0 group-hover:opacity-100">
                     <div className="text-black text-center">

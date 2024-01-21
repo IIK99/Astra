@@ -2,6 +2,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Image from 'next/image';
 
 export default function Testi() {
     const EmptyArrow = () => <></>;
@@ -48,11 +49,11 @@ export default function Testi() {
         </h2>
         <Slider className="max-w-[1008px] m-auto rounded-lg" {...settings}>
           {slider.map((url, key) => (
-            <img
+            <Image
               key={key}
               src={url}
-              className=" max-h-[440px] w-full h-full bg-black m-auto rounded-xl"
-            ></img>
+              className=" max-h-[440px] w-full h-full bg-black m-auto rounded-xl" alt="data" width={500} height={500}
+            />
           ))}
         </Slider>
       </div>

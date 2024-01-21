@@ -1,5 +1,6 @@
 "use client"
 import React from "react";
+import Image from 'next/image';
 
 const teamMembers = [
   {
@@ -100,11 +101,11 @@ export default function Team() {
       <div className=" xl:flex grid gap-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 auto-cols-auto m-auto md:flex-row justify-around">
         {teamMembers.map((member) => (
           <div key={member.name} className="max-w-xs mx-3 my-3">
-            <img
-              className="w-40 h-40 object-cover rounded-full mx-auto"
+            <Image
+              className="w-40 h-40 object-cover rounded-full mx-auto" width={500} height={500}
               src={member.imageSrc}
               alt={member.name}
-              style={{ borderWidth: 3, borderColor: "white" }}
+              style={{ borderWidth: 3, borderColor: "white" }} 
             />
             <h3 className="text-xl font-bold mt-4 text-sky-700">
               {member.name}
@@ -114,7 +115,9 @@ export default function Team() {
           </div>
         ))}
       </div>
-      <img src="https://www.astra.co.id/Public/Images/2023_BOC_rev.jpg" />
+      <Image src="https://www.astra.co.id/Public/Images/2023_BOC_rev.jpg"
+      className='w-full'
+      alt="komisaris" width={1000} height={1000} />
       <br />
       <br />
       <h1 className=" pb-5 font-bold text-2xl text-center text-sky-700 underline">
@@ -124,10 +127,10 @@ export default function Team() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {commissioners.map((commissioner, index) => (
           <div key={index} className="flex flex-col items-center">
-            <img
+            <Image
               src={commissioner.imageSrc}
               alt={commissioner.name}
-              className="w-64 h-64 object-cover"
+              className="w-64 h-64 object-cover"  width={500} height={500}
             />
             <p className="mt-2 text-sm font-semibold">{commissioner.name}</p>
             <div className="text-xs text-gray-500 text-center">
