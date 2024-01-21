@@ -33,9 +33,9 @@ export default function Services() {
     ],
   };
   const slider = [
-    "https://www.astra.co.id/Public/Images/home/slider/2023/ASTRA---LFA-APA-1280x559.jpg",
-    "https://www.astra.co.id/Public/Images/home/slider/2023/ASTRAMOMENTUM-KVSATUINDO.png",
-    "https://www.astra.co.id/Public/Images/home/slider/2022/2022-inspirasi-1280x559.jpg",
+    "/images/2022-inspirasi-1280x559.jpeg",
+    "/images/ASTRA---LFA-APA-1280x559.jpg",
+    "/images/ASTRAMOMENTUM-KVSATUINDO.png",
   ];
   return (
     <>

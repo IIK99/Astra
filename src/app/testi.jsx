@@ -31,13 +31,13 @@ export default function Testi() {
     ],
   };
   const slider = [
-    "https://www.astra.co.id/Public/Operational%20Figures/car-market-nov-2023-rev1.jpg",
-    "https://www.astra.co.id/Public/Files/angka%20operasional/2023/MOTOR-QUARTERLY-SEP23.png",
-    "https://www.astra.co.id/Public/Files/angka%20operasional/2023/FFB-CPO-SEP-UPDATED.png",
-    "https://www.astra.co.id/Public/Operational%20Figures/UNTR-Monthly-Operational-Updates-NOV23-1.jpg",
-    "https://www.astra.co.id/Public/Operational%20Figures/UNTR-Monthly-Operational-Updates-NOV23-2.jpg",
-    "https://www.astra.co.id/Public/Operational%20Figures/NOV23-UNITED-TRACTORS-Coal-Sales-Volume-in-thousand-tonnes.jpg",
-    "https://www.astra.co.id/Public/Operational%20Figures/NOV23-UNITED-TRACTORS-Gold-Sales-Volume-in-thousand-ounces.jpg",
+    "/images/car-market-nov-2023-rev1.jpeg",
+    "/images/MOTOR-QUARTERLY-SEP23.png",
+    "/images/NOV23-UNITED-TRACTORS-Coal-Sales-Volume-in-thousand-tonnes.jpeg",
+    "/images/NOV23-UNITED-TRACTORS-Gold-Sales-Volume-in-thousand-ounces.jpeg",
+    "/images/UNTR-Monthly-Operational-Updates-NOV23-1.jpeg",
+    "/images/UNTR-Monthly-Operational-Updates-NOV23-2.jpeg",
+    "/images/FFB-CPO-SEP-UPDATED.png",
   ];
 
   

@@ -33,61 +33,61 @@ const commissioners = [
     name: "PRIJONO SUGIARTO",
     position: ["PRESIDENT KOMISARIS", "priSugiarto@mail.com"],
     imageSrc:
-      "https://www.astra.co.id/Public/Images/profil/BOC/2023/ASTRA-BOC-NEW-PRIJONO-SUGIARTO.jpg",
+      "/images/ASTRA-BOC-NEW-PRIJONO-SUGIARTO.jpeg",
   },
   {
     name: "SRI INDRASTUTI HADIPUTRANTO",
     position: ["KOMISARIS INDEPENDENT", "Srihadi@mail.com"],
     imageSrc:
-      "https://www.astra.co.id/Public/Images/profil/BOC/2023/ASTRA-BOC-NEW-SRIINDRASTUTI.jpg",
+      "/images/ASTRA-BOC-NEW-SRIINDRASTUTI.jpeg",
   },
   {
     name: "BAMBANG PERMADI SOEMANTI BRODJONEGORO",
     position: ["KOMISARIS INDEPENDENT", "Bambang@mail.com"],
     imageSrc:
-      "https://www.astra.co.id/Public/Images/profil/BOC/2023/ASTRA-BOC-NEW-BAMBANG-PERMADI.jpg",
+      "/images/ASTRA-BOC-NEW-BAMBANG-PERMADI.jpeg",
   },
   {
     name: "APINONT SUCHEWABORIPONT",
     position: ["KOMISARIS INDEPENDENT", "suchewa@mail.com"],
     imageSrc:
-      "https://www.astra.co.id/Public/Images/profil/BOC/2023/ASTRA-BOC-NEW-Apinont-Suchewaboripont.jpg",
+      "/images/ASTRA-BOC-NEW-Apinont-Suchewaboripont.jpeg",
   },
   {
     name: "MULIAMAN DARMANSYAH HADAD",
     position: ["KOMISARIS INDEPENDENT", "darmansyah@mail.com"],
     imageSrc:
-      "https://www.astra.co.id/Public/Images/profil/BOC/2023/ASTRA-BOC-NEW-Muliaman.png",
+      "/images/ASTRA-BOC-NEW-Muliaman.png",
   },
   {
     name: "ANTONY JHON LIDDEL NIGHTINGALE",
     position: ["KOMISARIS", "AntonyLiddel@mail.com"],
     imageSrc:
-      "https://www.astra.co.id/Public/Images/profil/BOC/2023/ASTRA-BOC-NEW-ANTONY-JOHN-LIDDEL.jpg",
+      "/images/ASTRA-BOC-NEW-ANTONY-JOHN-LIDDEL.jpeg",
   },
   {
     name: "BENJAMIN WILLIAM KESWICK",
     position: ["KOMISARIS", "williamkeswick@mail.com"],
     imageSrc:
-      "https://www.astra.co.id/Public/Images/profil/BOC/2023/ASTRA-BOC-NEW-BENJAMIN-WILLIAM-KESWICK.jpg",
+      "/images/ASTRA-BOC-NEW-BENJAMIN-WILLIAM-KESWICK.jpeg",
   },
   {
     name: "JHON RAYMOND WITT",
     position: ["KOMISARIS", "Jhonray@mail.com"],
     imageSrc:
-      "https://www.astra.co.id/Public/Images/profil/BOC/2023/ASTRA-BOC-NEW-JOHN-RAYMOND-WITT.jpg",
+      "/images/ASTRA-BOC-NEW-JOHN-RAYMOND-WITT.jpeg",
   },
   {
     name: "STEPHEN PATRICK GORE",
     position: ["KOMISARIS", "patrick@mail.com"],
     imageSrc:
-      "https://www.astra.co.id/Public/Images/profil/BOC/2023/ASTRA-BOC-NEW-S-P.jpg",
+      "/images/ASTRA-BOC-NEW-S-P.jpeg",
   },
   {
     name: "BENJAMIN HERREDENT BRICKS",
     position: ["KOMISARIS", "Herbricks@mail.com"],
     imageSrc:
-      "https://www.astra.co.id/Public/Images/profil/BOC/2023/ASTRA-BOC-NEW-BEN-BIRKS.jpg",
+      "/images/ASTRA-BOC-NEW-BEN-BIRKS.jpeg",
   },
 ];
 
@@ -115,7 +115,7 @@ export default function Team() {
           </div>
         ))}
       </div>
-      <Image src="https://www.astra.co.id/Public/Images/2023_BOC_rev.jpg"
+      <Image src="/images/2023_BOC_rev.jpeg"
       className='w-full'
       alt="komisaris" width={1000} height={1000} />
       <br />

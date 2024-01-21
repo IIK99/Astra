@@ -8,7 +8,7 @@ export default function Beranda() {
     <>
       <div className="relative pt-2 w-screen m-auto">
         <Image
-          src="https://www.astra.co.id/Public/Images/ruangmedia/2021/MenaraAstra.jpg"
+          src="/images/MenaraAstra.jpeg"
           className="w-full h-auto rounded-md"
           alt="Menara Astra" width={1000} height={1000}
         />

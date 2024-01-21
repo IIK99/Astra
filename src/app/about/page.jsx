@@ -4,7 +4,7 @@ export default function AboutUs() {
   return (
     <>
       <div className=" w-screen m-auto h-full">
-        <Image src="https://www.astra.co.id/Public/april-19/Banner-MA.png" 
+        <Image src="/images/Banner-MA.png" 
         className='w-full'
         alt='astra' height={1000} width={1000} />
         <div className=" pt-5 max-w-screen-xl m-auto text-warp">
@@ -89,11 +89,11 @@ export default function AboutUs() {
           <h1 className=" pb-5 font-bold text-2xl text-center text-sky-700 underline">
             STRUKTUR ORGANISASI ASTRA
           </h1>
-          <Image src="https://www.astra.co.id/Public/organization-structure/group-structure/29nov23-id-1.png" 
+          <Image src="/images/29nov23-id-1.png" 
           className='w-full'
           alt='struktur' width={1000} height={1000}/>
           <Image
-            src="https://www.astra.co.id/Public/organization-structure/group-structure/Struktur-Grup-Astra_New_2023.jpg"
+            src="/images/Struktur-Grup-Astra_New_2023.jpeg"
             alt='struktur'width={1000} height={1000}
             className=" pb-5 w-full"
           />
@@ -123,13 +123,13 @@ export default function AboutUs() {
             FILOSOPI, FISI & MISI
           </h1>
           <h2 className=" pb-5 font-bold text-xl text-center">FILOSOPI :</h2>
-          <Image src="https://www.astra.co.id/Public/Images/profil/filsuf.jpg" alt='filsuf' width={500} height={500}
+          <Image src="/images/filsuf.jpg" alt='filsuf' width={500} height={500}
           className=" pb-5 m-auto" />
-          <h2 className=" pb-5 font-bold text-xl text-center">FISI :</h2>
-          <Image src="https://www.astra.co.id/Public/Images/profil/visi_Ind_21.jpg" alt='fisi' width={500} height={500}
+          <h2 className=" pb-5 font-bold text-xl text-center">VISI :</h2>
+          <Image src="/images/visi_Ind_21.jpg" alt='fisi' width={500} height={500}
           className=" pb-5 m-auto" />
           <h2 className=" pb-5 font-bold text-xl text-center">MISI :</h2>
-          <Image src="https://www.astra.co.id/Public/Images/profil/misi_ind_21.jpg" alt='misi' width={500} height={500}
+          <Image src="/images/misi_ind_21.jpg" alt='misi' width={500} height={500}
           className=" pb-5 m-auto" />
         </div>
       </div>
